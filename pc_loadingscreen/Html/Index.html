@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#13211e">
+
+    <meta name="description" content="Loading Screen — a frontier arrival by Progressive Code.">
+
+    <title>Loading Screen · Progressive Code</title>
+
+    <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body>
+    <main id="experience" aria-label="Loading Screen">
+        <div class="landscape" id="landscape" aria-hidden="true"></div>
+
+        <video id="film" muted loop playsinline hidden aria-hidden="true"></video>
+
+        <div class="shade" aria-hidden="true"></div>
+
+        <div class="frame" aria-hidden="true"></div>
+
+        <header class="topbar">
+            <div class="brand">
+                <div class="seal" id="seal" aria-hidden="true">EW</div>
+
+                <img id="logo" alt="Server logo" hidden>
+
+                <div class="brand-copy">
+                    <strong id="brand"></strong>
+
+                    <small id="subtitle"></small>
+                </div>
+            </div>
+
+            <nav id="navigation" aria-label="Loading screen information">
+                <button type="button" data-panel="guide">Field guide</button>
+
+                <button type="button" data-panel="rules">County code</button>
+
+                <button type="button" data-panel="staff">The team</button>
+            </nav>
+
+            <div class="edition" aria-hidden="true">
+                WESTBOUND
+                <span>A FRONTIER ARRIVAL</span>
+            </div>
+        </header>
+
+        <section class="hero" aria-labelledby="main-heading">
+            <div class="eyebrow"><i aria-hidden="true"></i> YOUR NEXT CHAPTER STARTS HERE</div>
+
+            <h1 id="main-heading">
+                <span id="heading-a"></span>
+
+                <em id="heading-b"></em>
+            </h1>
+
+            <p id="introduction"></p>
+
+            <button class="primary" type="button" data-panel="guide">
+                Discover the frontier <span aria-hidden="true">↗</span>
+            </button>
+
+            <div id="links" class="links" aria-label="Community links"></div>
+        </section>
+
+        <aside class="ticket" aria-label="Connection information">
+            <div class="ticket-top">
+                <span id="ticket-label"></span>
+
+                <span>ONE WAY</span>
+            </div>
+
+            <div class="ticket-main">
+                <small>PASSENGER</small>
+                
+                <h2 id="passenger">Traveller</h2>
+
+                <div class="route" aria-hidden="true">
+                    <span>THE OLD LIFE</span>
+
+                    <i></i>
+
+                    <b>✦</b>
+                </div>
+
+                <small>DESTINATION</small>
+
+                <h3 id="destination"></h3>
+
+                <div class="ticket-details">
+                    <span>
+                        CLASS
+                        <strong>New beginnings</strong>
+                    </span>
+                    <span id="population" hidden></span>
+                </div>
+            </div>
+
+            <div class="ticket-bottom">
+                <div class="barcode" aria-hidden="true"></div>
+
+                <span>YOUR STORY IS STILL UNWRITTEN</span>
+            </div>
+        </aside>
+
+        <section class="dispatch" aria-label="Server introduction">
+            <span id="chapter-number">01 / 03</span>
+
+            <div class="chapter-copy">
+                <small id="chapter-label"></small>
+
+                <h2 id="chapter-title"></h2>
+
+                <p id="chapter-text"></p>
+            </div>
+
+            <div class="chapter-controls">
+                <button type="button" id="previous" aria-label="Previous chapter">←</button>
+
+                <button type="button" id="next" aria-label="Next chapter">→</button>
+            </div>
+        </section>
+
+        <section class="arrival" aria-label="Loading progress">
+            <div class="progress-heading">
+                <div>
+                    <span class="signal" aria-hidden="true"></span>
+
+                    <span id="status" role="status" aria-live="polite"></span>
+                </div>
+
+                <span class="percent">
+                    <b id="percent">0</b>
+
+                    <small>%</small>
+                </span>
+            </div>
+
+            <div id="progress" class="progress" role="progressbar" aria-label="Loading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                <div id="fill"></div>
+
+                <i id="marker" aria-hidden="true"></i>
+            </div>
+
+            <div class="progress-caption">
+                <span id="detail">Waiting for loading data</span>
+
+                <span id="elapsed">00:00</span>
+            </div>
+        </section>
+
+        <footer class="bottom">
+            <div class="audio" id="audio-player">
+                <button type="button" id="audio-toggle" aria-label="Play music">▶</button>
+
+                <div class="audio-track">
+                    <label for="track-select">NOW PLAYING</label>
+
+                    <select id="track-select" aria-label="Select background music"></select>
+
+                    <small id="artist"></small>
+                </div>
+
+                <div class="audio-controls" aria-label="Music controls">
+                    <button type="button" id="track-previous" aria-label="Previous track" title="Previous track">‹</button>
+
+                    <button type="button" id="track-next" aria-label="Next track" title="Next track">›</button>
+
+                    <input id="volume" type="range" min="0" max="1" step="0.05" aria-label="Music volume">
+                </div>
+            </div>
+
+            <div class="tools">
+                <button type="button" id="motion" aria-pressed="false">Reduce motion</button>
+
+                <span>CREATED BY <b>PROGRESSIVE CODE</b></span>
+            </div>
+        </footer>
+
+        <div id="dialog-layer" hidden>
+            <section class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title" tabindex="-1">
+                <header>
+                    <div>
+                        <small>THE FRONTIER JOURNAL</small>
+                        
+                        <h2 id="dialog-title"></h2>
+                    </div>
+                    
+                    <button type="button" id="dialog-close" aria-label="Close panel">×</button>
+                </header>
+
+                <div id="dialog-content"></div>
+
+                <footer>Take a moment. Your journey is loading in the background.</footer>
+            </section>
+        </div>
+
+        <div id="preview-badge" hidden>BROWSER PREVIEW · SIMULATED PROGRESS</div>
+    </main>
+
+    <audio id="music" preload="none"></audio>
+
+    <script src="Js/Config.js"></script>
+
+    <script src="Js/Audio.js"></script>
+
+    <script src="Js/App.js"></script>
+</body>
+</html>

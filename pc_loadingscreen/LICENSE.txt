@@ -1,0 +1,53 @@
+PROGRESSIVE CODE — PROPRIETARY LICENSE
+
+Copyright © 2026 Progressive Code. All Rights Reserved.
+
+This resource, including its original source code, design, UI, documentation and original assets, is the intellectual property of Progressive Code.
+
+1. GRANT OF USE
+
+Progressive Code grants the user a limited, non-exclusive, non-transferable, royalty-free license to install, use and configure this resource on their own RedM server(s).
+
+2. RESTRICTIONS
+
+Without prior written permission from Progressive Code, you may NOT:
+
+- Resell, redistribute, share or publicly upload this resource, whether free or paid.
+- Repackage or distribute modified versions of this resource.
+- Claim this resource or any substantial part of its original work as your own creation.
+- Remove or alter copyright notices and ownership credits.
+- Rebrand, publish or distribute this resource under another developer or brand name.
+- Sublicense, rent, lease or otherwise commercially exploit this resource.
+
+3. MODIFICATIONS
+
+You may modify configuration settings and make private adjustments for your own server.
+
+Such modifications do not transfer ownership or grant redistribution rights.
+
+4. OWNERSHIP
+
+All rights, title and interest in the original work remain with Progressive Code.
+
+No ownership or intellectual property rights are transferred through the free distribution or use of this resource.
+
+Third-party components, if any, remain subject to their respective licenses.
+
+5. LICENSE VIOLATIONS
+
+Any unauthorized redistribution, resale, rebranding or misrepresentation of ownership constitutes a violation of this license and may result in termination of the granted usage rights and legal action where permitted by applicable law.
+
+6. DISCLAIMER
+
+This resource is provided "AS IS", without warranties of any kind, to the extent permitted by applicable law.
+
+7. ACCEPTANCE
+
+By downloading, installing or using this resource, you acknowledge and agree to the terms of this license.
+
+For licensing inquiries or written authorization:
+
+Discord: https://discord.gg/UpPc5h7TeJ
+
+PROGRESSIVE CODE
+All Rights Reserved.

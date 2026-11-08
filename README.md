@@ -104,6 +104,7 @@ When a character creator or custom spawn flow must control the exact shutdown mo
 
 ```lua
 Progressive_Code_Loading_Screen_Config.Lifecycle.AutoClose = false
+
 Progressive_Code_Loading_Screen_Config.Lifecycle.MaxRuntimeHoldMs = 0 -- Optional: disable the safety timeout.
 ```
 
